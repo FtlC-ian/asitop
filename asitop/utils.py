@@ -5,7 +5,6 @@ from subprocess import PIPE
 import psutil
 from .parsers import (
     parse_thermal_pressure,
-    parse_bandwidth_metrics,
     parse_cpu_metrics,
     parse_gpu_metrics,
 )
